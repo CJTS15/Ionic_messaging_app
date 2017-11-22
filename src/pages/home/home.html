@@ -1,0 +1,38 @@
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+<div class="header">
+		<ion-header>
+		  <ion-navbar color="header_bg">
+		    <ion-title>
+		      Text Ta!
+		    </ion-title>
+		  </ion-navbar>
+		</ion-header>
+</div>
+
+<ion-content>
+
+	<div class="myRecipient">
+		<ion-item>
+			<ion-label floating> Contact Number </ion-label>
+			<ion-input required type="number" value="" [(ngModel)]="num"></ion-input>
+			<button ion-button large clear item-end>
+				<ion-icon name="person-add" is-active="false"></ion-icon>
+			</button>
+		</ion-item>	
+	</div>
+
+
+	<div class="myMessage">
+		<ion-item>
+			<ion-label floating> Message </ion-label>
+	       	<ion-textarea type="text" value="" [(ngModel)]="message"></ion-textarea>
+	       	<button ion-button large clear item-end (click) ="sendAlert()">
+				<ion-icon name="send" is-active="false"></ion-icon>
+			</button>
+	   	</ion-item>
+   </div>
+
+</ion-content>
+

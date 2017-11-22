@@ -1,0 +1,35 @@
+page-home {
+	.header {
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.myRecipient {
+		position: fixed;
+		padding-top: 50px;
+		width: 100%;
+
+		label {
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		button {
+			color: #3f51b5;
+			font-size: 25px;
+		}
+	}
+
+	.myMessage {
+		 position: fixed;
+		 bottom: 0px;
+		 width: 100%;
+
+		label {
+			font-family: 'Open Sans', sans-serif;
+		}
+		button {
+			color: #3f51b5;
+			font-size: 25px;
+		}
+	}
+}
